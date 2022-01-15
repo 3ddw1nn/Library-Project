@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(219, 253, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color:rgb(52, 131, 214);
+}
+.library{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.book {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 27px;
+    text-align: center;
+    border-radius: 40px 40px 5px 40px;
+    background-color: rgb(157, 202, 250);
+    margin: 15px;
+    padding: 10px;
+    width: 200px;
+    height: 250px;
+    box-shadow:
+          0 0  0 2px rgb(255, 255, 255),
+          0.3em 0.3em 1em rgba(102, 102, 102, 0.3);
+}
+.removeButton{
+    border-radius: 20px;
+    padding: 5px 30px;
+    margin-top: 10px;
+    border:none;
+    color: crimson;
+    background-color: rgb(255, 255, 255);
+}
+
+.addBookButton {
+    padding: 1px 30px;
+    margin: 20px;
+    color: rgb(0, 123, 255);
+    border:none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+input {
+    border-radius: 20px;
+    border:none;
+    height:23px;
+    padding: 2px 15px;
+
+
+}
+h5{
+    margin: 12px;
+    color: rgb(115, 123, 133);
+}
+.bookTitle {
+    font-size: 16pt;
+    font-weight:300;
+    color: rgb(255, 255, 255);
+}
+.bookAuthor {
+    color: rgb(19, 66, 116);
+}
+.bookPages {
+    color: rgb(19, 66, 116);
+}
+.formButton {
+    color: rgb(19, 66, 116);
+    border-radius: 20px;
+    padding: 5px 30px;
+    margin-top: 10px;
+    border:none;
+}
+.addBookForm {
+    text-align: center;
+    border-radius: 20px;
+    display:flex;
+    width: 225px;
+    flex-direction: column;
+    background-color: rgb(147, 227, 238);
+    box-shadow:
+    0 0  0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(102, 102, 102, 0.3);
+}
+.container{
+    display: flex;
+    justify-content: center;
+}

@@ -5,10 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="app.js" defer></script>
-
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Joon's Literary Emporium </title>
 </head>
+<header>
+    <div>
+        <h1 class = "title">Joon's Literary Emporium</h1>
+    </div>
+</header>
 <body>
+
+    <div class= "library"></div>
+    <div class= "container">
+        <div class = "addBookForm">
+            <form>
+                <h5 class = "mainTitle">Title:</h5>
+                <input type= "text" id ="formTitle" class ="form title">
+
+                <h5>Author:</h5>
+                <input type= "text" id ="formAuthor" class ="form author">
+
+                <h5>Number of Pages:</h5>
+                <input type= "text" id ="formPages" class ="form author">
+
+                <h5>Read:</h5>
+                <button type="button" id ="formRead" class ="formButton">Not Read</button> 
+                <h5>Own:</h5>
+                <button type= "button" id ="formOwn" class ="formButton">Does not own</button>
+
+                <button type="button" class ="addBookButton">Add Book</button>
+            </form>
+    
+        </div>
+    </div>
+
+
+</div>
     
 </body>
 </html>
