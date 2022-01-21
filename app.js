@@ -7,14 +7,19 @@ let bookRead = "";
 let bookOwn = "";
 const library = document.querySelector(".library");
 
-//Book Constructor
-function Book(title, author, pages , read, own,) {
+class Book {
+    //Book Constructor
+    constructor(title, author, pages , read, own,) {
     this.title = title;
     this.author = author;
     this.pages = pages;
     this.read = read;
     this.own = own;
 }
+
+}
+
+
 
 //Pre-Set Books added
 const relativity = new Book ( "Relativity","Albert Einstein", "130 pages","Not Read", "Does not own");
@@ -34,6 +39,7 @@ function createLibrary (){
     library.appendChild(book);
     book.classList.add("book");
     book.setAttribute('data-book', i);
+    // myLibrary.splice(book.dataset.book , 1);
 
     //Creates title divs
     let titleDiv = document.createElement("div");
