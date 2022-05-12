@@ -20,20 +20,22 @@
         <div class = "addBookForm">
             <form>
                 <h5 class = "mainTitle">Title:</h5>
-                <input type= "text" id ="formTitle" class ="form title">
+                <input type= "text" id ="formTitle" name="title" class ="form title" required minlength="3">
+                <span class="error" aria-live="polite"></span>
 
                 <h5>Author:</h5>
-                <input type= "text" id ="formAuthor" class ="form author">
+                <input type= "text" id ="formAuthor" class ="form author" required>
+                
 
                 <h5>Number of Pages:</h5>
-                <input type= "text" id ="formPages" class ="form author">
+                <input type= "text" id ="formPages" class ="form author" required>
 
                 <h5>Read:</h5>
-                <button type="button" id ="formRead" class ="formButton">Not Read</button> 
+                <button type="button" id ="formRead" class ="formButton" required>Not Read</button> 
                 <h5>Own:</h5>
-                <button type= "button" id ="formOwn" class ="formButton">Does not own</button>
+                <button type= "button" id ="formOwn" class ="formButton" required>Does not own</button>
 
-                <button type="button" class ="addBookButton">Add Book</button>
+                <button type="submit" class ="addBookButton">Add Book</button>
             </form>
     
         </div>
